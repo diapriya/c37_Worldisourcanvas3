@@ -1,0 +1,53 @@
+<!DOCTYPE html><html><head>
+    <script src="p5.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="matter.js"></script>
+    <script src="./p5.play.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyC69CBqQ040dSB6CoaQ-vQFBHr0bbS5IH8",
+    authDomain: "worldisourcanvas1.firebaseapp.com",
+    databaseURL: "https://worldisourcanvas1.firebaseio.com",
+    projectId: "worldisourcanvas1",
+    storageBucket: "worldisourcanvas1.appspot.com",
+    messagingSenderId: "260606884213",
+    appId: "1:260606884213:web:108b3f8f8d75bffa327b3c",
+    measurementId: "G-SNDDEVNP0P"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+</script>
+  </head>
+  <body>
+
+      <script src="sketch.js"></script>
+      <input type="button" value="red" onclick="colourRed()">
+      <input type="button" value="yellow" onclick="colourYellow()">
+      <input type="button" value="blue" onclick="colourBlue()">
+      <input type="button" value="black" onclick="colourBlack()">
+      <input type="button" value="Save" onclick="saveDrawing()">
+
+      <p>
+        <button id="clearButton">clear</button>
+      </p>
+      <script> 
+      
+      
+      </script>
+</body></html>
